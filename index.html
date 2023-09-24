@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Landing Page With Bootstrap</title>
+  </head>
+  <body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark cz-shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">czBlog</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Services</a>
+            </li>
+          </ul>
+          <form class="d-flex my-2 my-lg-0">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search" />
+            <button
+              class="btn btn-outline-primary text-light my-2 my-sm-0"
+              type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mt-5">
+          <p class="lead">
+            This landing page was created with Bootstrap version 5.3. The basic
+            features include a responsive navbar, a hero section and footer. The
+            hero section contains a contact us form.
+          </p>
+          <p class="lead">
+            Feel free to customize it to your liking and don't forget to leave a
+            feedback before leaving
+          </p>
+        </div>
+        <div class="col mt-5">
+          <h1>Contact Us</h1>
+
+          <div class="mb-3">
+            <label for="" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name=""
+              id=""
+              aria-describedby="helpId"
+              placeholder="" />
+            <div class="mb-3">
+              <label for="" class="form-label mt-3">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                name=""
+                id=""
+                aria-describedby="helpId"
+                placeholder="" />
+              <div class="mb-3">
+                <label for="" class="form-label mt-3"
+                  >Enter your message here</label
+                >
+                <textarea
+                  class="form-control"
+                  name=""
+                  id=""
+                  rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav bg-dark justify-content-center fixed-bottom p-2">
+      (c) 2023. Designed by
+      <a href="https://wa.me/2348060864466" target="_blank" class="px-2">
+        czDamian</a
+      >
+    </div>
+  </body>
+  <script src="bootstrap.js"></script>
+</html>
